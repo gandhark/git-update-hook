@@ -150,7 +150,7 @@ echo @@@@@@@@@@@@@@@@@@@@@@@
 
 
 echo @@@@@@@@@@@@@@@@@@@@@@@for loop@@@@@@@@@@@@@@@@@@@@@@@
-allowedfiles=("Source/Admin.UI/Web.config Source/Admin.UI/ConfigRoot/* Source/Api.Web/Web.config Source/Api.Web/ConfigRoot/* Source/Service/Web.config Source/Service/ConfigRoot/* Source/Web.UI3/Web.config Source/Web.UI3/ConfigRoot/* Source/Web.UI/Web.config Source/Web.UI/ConfigRoot/* Source/Web.UI2/Web.config Source/Web.UI2/ConfigRoot/* Source/Web.UI/Web.config Source/Web.UI/ConfigRoot/* Source/Web.UI3/css/* Source/Web.UI3/img/*")
+allowedfiles=("Source/Admin/Web.config Source/UI/ConfigRoot/* Source/Web/Web.config ")
 read -a data <<< $allowedfiles
 for j in ${data[@]}; do echo $j; done
 echo @@@@@@@@@@@@@@@@@@@@@@@
